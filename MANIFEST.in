@@ -1,0 +1,17 @@
+include .editorconfig
+include .gitignore
+include AUTHORS
+include INSTALL
+include LICENSE
+include LICENSE.python
+include MANIFEST.in
+include playbook.yml
+include README.md
+include requirements.txt
+include setup.py
+include Vagrantfile
+graft docs
+graft pyopenehr_adl2core
+graft tests
+global-exclude __pycache__
+global-exclude *.py[co]
