@@ -5,12 +5,13 @@ include INSTALL
 include LICENSE
 include LICENSE.python
 include MANIFEST.in
-include playbook.yml
 include README.md
 include requirements.txt
+include setup.cfg
 include setup.py
 include Vagrantfile
 graft docs
+graft provisioning
 graft pyopenehr_adl2core
 graft tests
 global-exclude __pycache__
