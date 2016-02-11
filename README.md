@@ -1,6 +1,6 @@
 # pyopenehr_adl2core
 
-ADL / AOM 2 python core libs and parser
+Python ADL / AOM 2 core libs and parser
 
 ## Getting Started
 
