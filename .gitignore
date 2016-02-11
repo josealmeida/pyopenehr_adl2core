@@ -3,6 +3,9 @@
 # vagrant
 .vagrant/
 
+#virtualenvwrapper
+.virtualenvs
+
 # sublime text
 # cache files for sublime text
 *.tmlanguage.cache
