@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: install python3-pip
+      apt: name=python3-pip update_cache=yes
+    - name: install virtualenvwrapper for python 3
+      pip: name=virtualenvwrapper executable=pip-3.4.3
